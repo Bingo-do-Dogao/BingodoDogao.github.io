@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo do Dogão - Jogue Bingo Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        #sidebar {
+            width: 200px;
+            background-color: #34495e;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        #content {
+            flex: 1;
+            padding-left: 20px;
+        }
+        #intro {
+            background-color: #27ae60;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        #about {
+            background-color: #2980b9;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Estilo para a figura de bingo */
+        .bingo-icon {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bingo do Dogão</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Jogar</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="sidebar">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Recarga</a></li>
+                <li><a href="#">Sorteio</a></li>
+                <li><a href="#">Premiação</a></li>
+                <li><a href="#">Indicar Amigo</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <section id="intro">
+                <h2>Bem-vindo ao Bingo do Dogão!</h2>
+                <img src="bingo-icon.png" alt="Ícone de Bingo" class="bingo-icon">
+                <p>Aqui você pode desfrutar de emocionantes jogos de bingo, conhecer novas pessoas e ganhar prêmios incríveis.</p>
+                <a href="#" class="btn-play">Jogar Agora</a>
+            </section>
+            <section id="about">
+                <h2>Sobre o Bingo do Dogão</h2>
+                <p>Somos apaixonados por bingo e estamos aqui para proporcionar uma experiência divertida e segura para todos os jogadores.</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bingo do Dogão - Jogue Bingo Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
